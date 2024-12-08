@@ -1,8 +1,18 @@
-# Calculadora
+# **Calculadora Simples**
 
-1) Este projeto foi criado para praticar conceitos básicos de front-end e desenvolvimento web.
+**Este projeto foi criado para praticar conceitos básicos de Programação.**
 
-# Tecnologias Utilizadas
-  -HTML: Estrutura da calculadora.
-  -CSS: Estilização da interface.
-  -JS: Lógica de funcionamento da calculadora.
+
+---
+
+
+
+## **Tecnologias Utilizadas**
+
+- **HTML**: Estrutura da calculadora.
+- **CSS**: Estilização da interface.
+- **JavaScript**: Lógica de funcionamento da calculadora.
+
+---
+
+
