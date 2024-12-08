@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input id="input" readonly placeholder="0">
+        <div class="numero">
+            <div class="linha">
+                <button type="button" onclick="button('7')">7</button>
+                <button type="button" onclick="button('8')">8</button>
+                <button type="button" onclick="button('9')">9</button>
+                <button type="button" onclick="button('+')" class="buttonP">+</button>
+            </div>
+            <div class="linha">
+                <button type="button" onclick="button('4')">4</button>
+                <button type="button" onclick="button('5')">5</button>
+                <button type="button" onclick="button('6')">6</button>
+                <button type="button" onclick="button('*')" class="buttonP">x</button>
+            </div>
+            <div class="linha">
+                <button type="button" onclick="button('1')">1</button>
+                <button type="button" onclick="button('2')">2</button>
+                <button type="button" onclick="button('3')">3</button>
+                <button type="button" onclick="button('-')" class="buttonP">-</button>
+            </div>
+            <div class="linha">
+                <button type="button" onclick="inputClear()" class="buttonCE">CE</button>
+                <button type="button" onclick="button('0')">0</button>
+                <button type="button" onclick="button('.')">.</button>
+                <button type="button" onclick="calculate()" class="buttonE">=</button>
+            </div>
+            <div class="x5">
+                <p>Gaona <span style="color: red;">Hub</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
